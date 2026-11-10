@@ -169,3 +169,10 @@ footer a { color: var(--cream); }
   .arrow { min-width: 0; flex: 1 1 30%; font-size: 15px; padding: 12px 22px 12px 18px; }
   .nav .brand { display: none; }
 }
+
+/* 앱 */
+.app-card { display: flex; align-items: center; gap: 24px; flex-wrap: wrap; }
+.app-card img { width: 120px; height: 120px; border-radius: 24px; }
+.app-card .app-name { font-size: clamp(20px, 3.4vw, 26px); font-weight: 700; margin-bottom: 4px; }
+.band .btn { border-color: var(--cream); color: var(--cream); margin-top: 8px; }
+.band .btn:hover { background: var(--cream); color: var(--green); }
